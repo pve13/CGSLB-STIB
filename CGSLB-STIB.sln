@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CGSLB-STIB", "CGSLB-STIB\CGSLB-STIB.csproj", "{7E109649-FFCE-4090-B80D-BAB07AFAE4AB}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "CGSLB", "CGSLB\CGSLB.sqlproj", "{2C20B0BC-A0D0-4BF1-8E9E-BDE4B5679998}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E109649-FFCE-4090-B80D-BAB07AFAE4AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E109649-FFCE-4090-B80D-BAB07AFAE4AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E109649-FFCE-4090-B80D-BAB07AFAE4AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E109649-FFCE-4090-B80D-BAB07AFAE4AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C20B0BC-A0D0-4BF1-8E9E-BDE4B5679998}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C20B0BC-A0D0-4BF1-8E9E-BDE4B5679998}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C20B0BC-A0D0-4BF1-8E9E-BDE4B5679998}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{2C20B0BC-A0D0-4BF1-8E9E-BDE4B5679998}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C20B0BC-A0D0-4BF1-8E9E-BDE4B5679998}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C20B0BC-A0D0-4BF1-8E9E-BDE4B5679998}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AE3EBF1E-3588-44F2-95B9-CB15190EE15A}
+	EndGlobalSection
+EndGlobal

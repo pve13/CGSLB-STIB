@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="df512344-2e25-44b9-9421-0dc469d5ebb9" ChangeDateTime="01/13/2020 19:43:12">
+    <Property Name="ElementName" Value="[dbo].[Bon].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Bon]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Matricule" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="1d8dc9da-aaba-4012-99d2-4e1e08339b12" ChangeDateTime="01/13/2020 19:43:35">
+    <Property Name="ElementName" Value="[dbo].[Bon].[date_paiement]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Bon]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Paiement" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="cc0843e4-b817-43c8-91b2-585aadfed176" ChangeDateTime="01/13/2020 19:45:20">
+    <Property Name="ElementName" Value="[dbo].[codePostaux].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[codePostaux]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="code" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ecde7d58-b78b-491b-8c63-c711f175d0fe" ChangeDateTime="01/13/2020 19:45:31">
+    <Property Name="ElementName" Value="[dbo].[codePostaux].[code]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[codePostaux]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="codePostal" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="4ac002e4-4799-4813-a7df-7074fbc74b89" ChangeDateTime="01/13/2020 19:45:48">
+    <Property Name="ElementName" Value="[dbo].[codePostaux].[codePostal]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[codePostaux]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="code" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="70300ab8-545b-4a60-befa-0f5e304bb886" ChangeDateTime="01/13/2020 19:49:14">
+    <Property Name="ElementName" Value="[dbo].[Affilies].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Affilies]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Matricule" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="9fb5d202-b70a-4c34-bde3-795ed80679f0" ChangeDateTime="01/13/2020 19:52:01">
+    <Property Name="ElementName" Value="[dbo].[Affilies].[Prénoù]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Affilies]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Prénom" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="91298bc2-5107-483d-a05e-65469d37eeb3" ChangeDateTime="01/13/2020 19:57:30">
+    <Property Name="ElementName" Value="[dbo].[FK_Affilies_ToTable]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[Affilies]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_Affilies_ToBatiment]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="7282da74-8a03-4c05-ad8d-5bec4f002b18" ChangeDateTime="01/13/2020 20:00:08">
+    <Property Name="ElementName" Value="[dbo].[Affilies].[Rue]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Affilies]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Adresse_Rue" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="84498449-3e51-47d5-b0e9-c4fc6a1a6008" ChangeDateTime="01/13/2020 20:00:38">
+    <Property Name="ElementName" Value="[dbo].[Affilies].[Adresse_Numéro]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Affilies]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Adresse_Numero" />
+  </Operation>
+</Operations>

@@ -1,0 +1,25 @@
+﻿CREATE TABLE [dbo].[Affilies]
+(
+	[Matricule] INT NOT NULL PRIMARY KEY IDENTITY (1,1), 
+    [MatriculeCGSLB] NCHAR(10) NULL, 
+    [Nom] NCHAR(50) NOT NULL, 
+    [Prénom] NCHAR(50) NOT NULL, 
+    [Langue] CHAR(1) NULL, 
+    [idLieux] INT NULL, 
+    [idFonction] INT NULL, 
+    [idBatiment] INT NULL, 
+    [Adresse_Rue] NCHAR(50) NULL, 
+    [Adresse_Numero] NCHAR(10) NULL, 
+    [Adresse_Boite] NCHAR(10) NULL, 
+    [Adresse_CodePostal] INT NULL, 
+    [EMail_Stib] NCHAR(100) NULL, 
+    [EMail_Perso] NCHAR(100) NULL, 
+    [GSM] NCHAR(20) NULL, 
+    [Delegue] BIT NULL, 
+    [CPPT] BIT NULL, 
+    [CE] BIT NULL, 
+    CONSTRAINT [AK_Affilies_Column] UNIQUE (MatriculeCGSLB), 
+    CONSTRAINT [FK_Affilies_ToLieux] FOREIGN KEY (idLieux) REFERENCES Lieux(Id), 
+    CONSTRAINT [FK_Affilies_ToFonction] FOREIGN KEY (idFonction) REFERENCES Fonction(Id), 
+    CONSTRAINT [FK_Affilies_ToBatiment] FOREIGN KEY (idBatiment) REFERENCES Batiment(Id)
+)
